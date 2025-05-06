@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{%block title %}Title{% endblock %}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 </head>
-{%block content%}
+
 <body>
 <nav class="pl-4 ">
     <a  class="btn btn-primary" href="{{url_for('home')}}">Головна</a>
@@ -62,5 +62,5 @@
 	
 </header>
 </body>
-{%endblock%}
+
 </html>
